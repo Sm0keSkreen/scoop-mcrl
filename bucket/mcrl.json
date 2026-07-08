@@ -14,7 +14,7 @@
         "",
         "Want the Realms/telemetry/profanity extras? Writes config.json right next to this jar,",
         "no separate download or install directory:",
-        "  irm https://github.com/Sm0keSkreen/mcrl/releases/latest/download/install.bat -outfile install.bat; .\\install.bat configure \"$dir\""
+        "  irm https://github.com/Sm0keSkreen/mcrl/releases/latest/download/Mcrl.bat -outfile Mcrl.bat; .\\Mcrl.bat configure \"$dir\""
     ],
     "checkver": {
         "github": "https://github.com/Sm0keSkreen/mcrl"
