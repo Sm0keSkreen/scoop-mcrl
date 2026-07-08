@@ -12,9 +12,9 @@
         "JDK_JAVA_OPTIONS now points at this jar (stable across 'scoop update mcrl', no need to redo this).",
         "Close every open Minecraft launcher window and reopen.",
         "",
-        "Want the Realms/telemetry/profanity extras? Those need config.json, written by the full",
-        "installer instead of this manifest:",
-        "  irm https://github.com/Sm0keSkreen/mcrl/releases/latest/download/install.bat -outfile install.bat; .\\install.bat"
+        "Want the Realms/telemetry/profanity extras? Writes config.json right next to this jar,",
+        "no separate download or install directory:",
+        "  irm https://github.com/Sm0keSkreen/mcrl/releases/latest/download/install.bat -outfile install.bat; .\\install.bat configure \"$dir\""
     ],
     "checkver": {
         "github": "https://github.com/Sm0keSkreen/mcrl"
